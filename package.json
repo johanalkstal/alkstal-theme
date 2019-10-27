@@ -1,0 +1,27 @@
+{
+  "name": "alkstal-theme",
+  "displayName": "Alkstal",
+  "description": "My personal VS Code themes",
+  "version": "1.0.0",
+  "publisher": "Johan Alkstål",
+  "engines": {
+    "vscode": "^1.31.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Alkstal Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/alkstal-dark-color-theme.json"
+      },
+      {
+        "label": "Alkstal Light",
+        "uiTheme": "vs",
+        "path": "./themes/alkstal-light-color-theme.json"
+      }
+    ]
+  }
+}
